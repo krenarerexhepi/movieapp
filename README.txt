@@ -1,4 +1,4 @@
-This project it it P1 project for Udacity Nanodegree.
+
  
 We needed to use our API_KEY to build the app so I put that key in the class Constants.
 
