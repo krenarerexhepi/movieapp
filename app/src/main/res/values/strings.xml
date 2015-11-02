@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pop movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="most_popular_movies">Most popular</string>
+    <string name="refresh">Refresh</string>
+    <string name="hight_movies">Highest-rated</string>
+    <string name="title_activity_detail">Movie detail</string>
+    <string name="movie">movie</string>
+    <string name="image_url">https://image.tmdb.org/t/p/w500/</string>
+    <string name="JSONException">JSONException</string>
+    <string name="JSONEXceptionMessage">JSON parsing is wrong in Parse data class</string>
+    <string name="IOException">IOExeption</string>
+    <string name="IOExceptionMessage">cant close reader in main activity</string>
+    <string name="NoNetwork">Problem to get data. Check network connection!!</string>
+    <string name="IOExceptionURL">IOExeptionURL</string>
+    <string name="IOExceptionMessageURL">cant find url in main activity</string>
+    <string name="MalformedURL">MalformedURL</string>
+    <string name="MalformedURLMessage">Look in your main activity, it probably has the wrong url</string>
+
+</resources>

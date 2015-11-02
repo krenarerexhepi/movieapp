@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:showIn="@layout/activity_detail"
+    tools:context="udacity_project.mymovieapp.DetailActivityFragment">
+          <TextView
+            android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/detail_title"
+            style="@style/TitleTextViewStyle"/>
+    <ImageView
+        android:id="@+id/detail_imageView"
+        android:layout_below="@+id/detail_title"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        style="@style/ImageViewStyle"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_raiting_detail"
+        style="@style/ReatingTextViewStyle"
+    />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/release_date_detail"
+        style="@style/DateTextViewStyle"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/overview_detail"
+        android:layout_below="@+id/detail_imageView"
+        style="@style/OverviewTextViewStyle"
+        />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="StyleMainGrid" >
+        <item name="android:numColumns">2</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:layout_alignParentStart" tools:targetApi="jelly_bean_mr1">true</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="OverviewTextViewStyle">
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+     </style>
+<style name="DateTextViewStyle">
+   <item name="android:layout_alignParentRight">true</item>
+   <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
+   <item name="android:layout_marginRight">80dp</item>
+   <item name="android:layout_marginTop">20dp</item>
+   <item name="android:textSize">20dp</item>
+   <item name="android:layout_alignTop">@+id/detail_imageView</item>
+</style>
+    <style name="ReatingTextViewStyle">
+     <item name="android:layout_below">@+id/detail_title</item>
+      <item name="android:layout_alignParentRight">true</item>
+      <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
+      <item name="android:layout_marginTop">80dp</item>
+      <item name="android:textSize">30dp</item>
+      <item name="android:layout_marginRight">140dp</item>
+    </style>
+    <style name="ImageViewStyle">
+       <item name="android:layout_alignParentLeft">true</item>
+       <item name="android:layout_alignParentStart" tools:targetApi="jelly_bean_mr1">true</item>
+       <item name="android:paddingLeft">10dp</item>
+       <item name="android:layout_marginTop">30dp</item>
+    </style>
+    <style name="TitleTextViewStyle">
+      <item name="android:textSize">80dp</item>
+      <item name="android:gravity">center</item>
+      <item name="android:background">@color/colorTitleBack</item>
+      <item name="android:layout_alignParentRight">true</item>
+      <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+</resources>

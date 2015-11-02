@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleMainGrid">
+        <item name="android:numColumns">2</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+</resources>
