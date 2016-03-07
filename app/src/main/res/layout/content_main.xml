@@ -4,12 +4,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:background="#d4efd6">
     <GridView
-        android:id="@+id/movie_grid"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+               android:id="@+id/movie_grid"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               style="@style/StyleMainGrid"
+        android:padding="5dp">
+           </GridView>
+    <GridView
+        android:id="@+id/favorite_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         style="@style/StyleMainGrid"
-        >
+        android:padding="5dp"
+        android:visibility="invisible">
     </GridView>
 </RelativeLayout>
+

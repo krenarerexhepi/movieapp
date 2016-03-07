@@ -14,10 +14,11 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="StyleMainGrid" >
-        <item name="android:numColumns">2</item>
+        <item name="android:numColumns">auto_fit</item>
         <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:horizontalSpacing">5dp</item>
+        <item name="android:clipChildren">true</item>
         <item name="android:layout_alignParentStart" tools:targetApi="jelly_bean_mr1">true</item>
-        <item name="android:padding">0dp</item>
     </style>
     <style name="OverviewTextViewStyle">
         <item name="android:layout_alignParentLeft">false</item>
@@ -29,7 +30,7 @@
    <item name="android:layout_alignParentRight">true</item>
    <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
    <item name="android:layout_marginRight">80dp</item>
-   <item name="android:layout_marginTop">20dp</item>
+   <item name="android:layout_marginTop">40dp</item>
    <item name="android:textSize">20dp</item>
    <item name="android:layout_alignTop">@+id/detail_imageView</item>
 </style>
@@ -37,7 +38,7 @@
      <item name="android:layout_below">@+id/detail_title</item>
       <item name="android:layout_alignParentRight">true</item>
       <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
-      <item name="android:layout_marginTop">80dp</item>
+      <item name="android:layout_marginTop">100dp</item>
       <item name="android:textSize">30dp</item>
       <item name="android:layout_marginRight">140dp</item>
     </style>
@@ -55,4 +56,5 @@
       <item name="android:layout_alignParentEnd" tools:targetApi="jelly_bean_mr1">true</item>
         <item name="android:layout_alignParentTop">true</item>
     </style>
+
 </resources>

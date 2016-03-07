@@ -1,50 +1,195 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"  tools:showIn="@layout/activity_detail"
-    tools:context="udacity_project.mymovieapp.DetailActivityFragment">
-          <TextView
-            android:layout_width="fill_parent"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#d4efd6">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView9">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="522dp"
+            android:weightSum="1">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/scrollView2"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3.53">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Title"
+                        android:id="@+id/detail_title"
+                        android:textSize="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center" />
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingTop="20dp"
+                android:weightSum="1"
+                android:layout_weight="4.47">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="214dp"
+                    android:paddingBottom="20dp">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="250dp"
+                        android:id="@+id/detail_imageView"
+                        android:src="@drawable/userplaceholder"
+                        android:paddingBottom="30dp"
+                        android:paddingLeft="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:paddingLeft="15dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Raiting:"
+                        android:id="@+id/textView3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:id="@+id/user_raiting_detail"
+                        android:paddingBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Release date:"
+                        android:id="@+id/textView2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Medium Text"
+                        android:id="@+id/release_date_detail"
+                        android:paddingBottom="10dp"
+                        android:layout_gravity="left" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="121dp"
+                        android:layout_height="113dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:id="@+id/favoriteButton"
+                            android:layout_below="@+id/user_raiting_detail"
+                            android:layout_alignLeft="@+id/user_raiting_detail"
+                            android:layout_alignStart="@+id/user_raiting_detail"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"
+                            android:background="#00ffffff"
+                            android:onClick="onFavoriteClick"
+                            android:layout_gravity="left" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/detail_title"
-            style="@style/TitleTextViewStyle"/>
-    <ImageView
-        android:id="@+id/detail_imageView"
-        android:layout_below="@+id/detail_title"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        style="@style/ImageViewStyle"
-     />
+                android:paddingLeft="15dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/user_raiting_detail"
-        style="@style/ReatingTextViewStyle"
-    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Overview"
+                    android:id="@+id/textView11"
+                    android:layout_marginTop="10dp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/overview_detail" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/release_date_detail"
-        style="@style/DateTextViewStyle"
-        android:layout_alignParentBottom="false"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentEnd="true" />
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView3" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/overview_detail"
-        android:layout_below="@+id/detail_imageView"
-        style="@style/OverviewTextViewStyle"
-        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="10dp">
 
-</RelativeLayout>
-</ScrollView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Trailers:"
+                            android:id="@+id/textView" />
+
+                        <ListView
+                            android:layout_width="wrap_content"
+                            android:layout_height="135dp"
+                            android:id="@+id/trailerList" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Reviews:"
+                    android:id="@+id/textView12"
+                    android:paddingTop="10dp" />
+
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="163dp"
+                    android:id="@+id/rewievList" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
