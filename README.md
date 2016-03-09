@@ -28,7 +28,7 @@ First fork, this repository.
 
 Next, clone this repository to your desktop to make changes.
 
-''' $ git clone https://github.com/krenarerexhepi/movieapp.git '''
+``` $ git clone https://github.com/krenarerexhepi/movieapp.git ```
 
 Once you've pushed changes to your local repository, you can issue a pull request by clicking on the green pull request icon.
 
@@ -37,9 +37,9 @@ You are free to use a code. Let me know where did you use it. [Write me](krenare
 
 ## More information
 
-Project it is developed in Android Studio
-The Language is Java and design XML
-Android App
+*Project it is developed in Android Studio
+*The Language is Java and design XML
+*Android App
 
 
 ## What should you know 
@@ -51,12 +51,12 @@ Android App
 You’ll need to modify the build.gradle file for your app. These modifications will happen in the build.gradle file for your module’s directory, not the project root directory (it is the file highlighted in blue in the screenshot below).
 
 In your app/build.gradle file, add:
- '''
+```
  repositories {
  mavenCentral()
 }
- '''
-Next, add  ''' compile 'com.squareup.picasso:picasso:2.5.2' ''' to your dependencies block.
+```
+Next, add  ``` compile 'com.squareup.picasso:picasso:2.5.2' ``` to your dependencies block.
 
 ## Working with the _themoviedb.org API_
 
