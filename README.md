@@ -22,6 +22,25 @@ Most of us can relate to kicking back on the couch and enjoying a movie with fri
 *You will incorporate libraries to simplify the amount of code you need to write
 *Ready to start building? Click "Next" for instructions!
  
+##How to Use
+
+First fork, this repository.
+
+Next, clone this repository to your desktop to make changes.
+
+''' $ git clone https://github.com/krenarerexhepi/movieapp.git '''
+
+Once you've pushed changes to your local repository, you can issue a pull request by clicking on the green pull request icon.
+
+
+You are free to use a code. Let me know where did you use it. [Write me](krenare@outlook.com).
+
+## More information
+
+Project it is developed in Android Studio
+The Language is Java and design XML
+Android App
+
 
 ## What should you know 
 
@@ -55,3 +74,7 @@ Combining these three parts gives us a final url of http://image.tmdb.org/t/p/w1
 This is also explained explicitly in the API documentation for /configuration.
 
 https://lh6.googleusercontent.com/Hs2OlBBbQrGGmoPiNzXO0F2u2Pqz2rnmrSazDDdWdvCMycdmQIuEkAogSRfEe_r-sz3Ks7ziAX8XjaRE7Ukcv04rZGlPLd6VZbEBeNgL8Sdi58-CTLEz7sR9eGaItouyNtYdSGI
+
+License
+
+The contents of this repository are covered under the MIT License.
