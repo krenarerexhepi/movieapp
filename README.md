@@ -5,22 +5,22 @@ Most of us can relate to kicking back on the couch and enjoying a movie with fri
 
 ## This app:
 
-*Present the user with a grid arrangement of movie posters upon launch.
-*Allow your user to change sort order via a setting:
-*The sort order can be by most popular or by highest-rated
-*Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
-  **original title
-**movie poster image thumbnail
-**A plot synopsis (called overview in the api)
-**user rating (called vote_average in the api)
-**release date
+* Present the user with a grid arrangement of movie posters upon launch.
+* Allow your user to change sort order via a setting:
+* The sort order can be by most popular or by highest-rated
+* Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
+  ** original title
+** movie poster image thumbnail
+** A plot synopsis (called overview in the api)
+** user rating (called vote_average in the api)
+** release date
 
 #This Project?
 
-*Fetch data from the Internet with theMovieDB API.
-*You will use adapters and custom list layouts to populate list views.
-*You will incorporate libraries to simplify the amount of code you need to write
-*Ready to start building? Click "Next" for instructions!
+* Fetch data from the Internet with theMovieDB API.
+* You will use adapters and custom list layouts to populate list views.
+* You will incorporate libraries to simplify the amount of code you need to write
+* Ready to start building? Click "Next" for instructions!
  
 ##How to Use
 
@@ -31,7 +31,6 @@ Next, clone this repository to your desktop to make changes.
 ``` $ git clone https://github.com/krenarerexhepi/movieapp.git ```
 
 Once you've pushed changes to your local repository, you can issue a pull request by clicking on the green pull request icon.
-
 
 You are free to use a code. Let me know where did you use it. [Write me](krenare@outlook.com).
 
@@ -44,10 +43,10 @@ You are free to use a code. Let me know where did you use it. [Write me](krenare
 
 ## What should you know 
 
-*We needed to use our API_KEY to build the app so I put that key in the class Constants.
-*For security reasons before to zip project I have removed that  key. You can put you key in the Constants class in the api_key final static variable . 
+* We needed to use our API_KEY to build the app so I put that key in the class Constants.
+* For security reasons before to zip project I have removed that  key. You can put you key in the Constants class in the api_key final static variable . 
 
-*I included this to reduce unnecessary extra work and help you focus on applying your app development skills.
+* I included this to reduce unnecessary extra work and help you focus on applying your app development skills.
 You’ll need to modify the build.gradle file for your app. These modifications will happen in the build.gradle file for your module’s directory, not the project root directory (it is the file highlighted in blue in the screenshot below).
 
 In your app/build.gradle file, add:
